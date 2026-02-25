@@ -1,13 +1,24 @@
-<script setup></script>
+<script setup>
+const props = defineProps({
+  label: {
+    type: String,
+    required: true
+  },
+  url: {
+    type: String,
+    required: true
+  }
+})
+</script>
 
 <template>
-  <button>
-    <span>はじめる</span>
-  </button>
+  <a :href="url">
+    <span>{{ label }}</span>
+  </a>
 </template>
 
 <style scoped>
-button {
+a {
   display: flex;
   padding: 8px 13px;
   justify-content: center;
@@ -15,7 +26,9 @@ button {
   gap: 8px;
 
   border-radius: 12px;
-  background: #000;
+  background: #434343;
+  text-decoration: none;
+  
 }
 
 span {

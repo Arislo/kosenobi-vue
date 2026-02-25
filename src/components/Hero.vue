@@ -23,6 +23,9 @@ import HeroCard from './HeroCard.vue';
 </template>
 
 <style scoped>
+div{
+  background-color: #fff;
+}
 h1 {
   align-self: stretch;
 
@@ -73,6 +76,7 @@ h2 {
 @media screen and (max-width: 650px){
   h1 {
     font-size: 2rem;
+    margin-bottom: 1rem;
   }
   h2{
     font-size: 1.2rem;

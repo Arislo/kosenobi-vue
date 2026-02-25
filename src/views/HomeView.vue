@@ -1,14 +1,16 @@
 <script setup>
 import Hero from '@/components/Hero.vue';
 import Device from '@/components/Device.vue';
+import Contact from '@/components/Contact.vue';
 </script>
 <template>
   <Hero></Hero>
   <Device></Device>
+  <Contact></Contact>
 </template>
 <style scoped>
 h1 {
-  color: #42b983;
+  color: var(--main-text);
   font-size: 2rem;
   margin-bottom: 20px;
 }

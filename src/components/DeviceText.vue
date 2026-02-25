@@ -5,10 +5,10 @@ import Button from './Button.vue';
 <template>
   <div class="container">
     <div>
-      <h2>スライドとカードで</h2>
+      <h2>ためしてみよう！</h2>
       <p>どの端末でもご利用いただけます</p>
     </div>
-    <Button></Button>
+    <Button label="近日公開" link="#"></Button>
   </div>
 </template>
 
@@ -43,8 +43,18 @@ p {
 }
 
 @media screen and (max-width: 1024px) {
-  .container{
+  .container {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-weight: 500;
   }
 }
 </style>

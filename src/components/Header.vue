@@ -2,16 +2,16 @@
   <header>
     <div class="flame">
       <RouterLink to="/">
-        <img src="../assets/logo.svg">
+        <img src="../assets/logo.svg" alt="logo">
       </RouterLink>
       <div>
         <ul>
           <li>
-            <RouterLink to="/info">おしらせ</RouterLink>
+            <RouterLink to="/about">このサイトについて</RouterLink>
           </li>
-          <li>
-            お問い合わせ
-          </li>
+          <li><a href="https://forms.gle/ZzfWt1Z9Ex5hUYN57" target="_blank">
+              お問い合わせ<img class="out" src="../assets/open_in_new_24dp_222_FILL0_wght400_GRAD0_opsz24.svg">
+            </a></li>
         </ul>
       </div>
     </div>
@@ -29,10 +29,6 @@
   background: #FFF;
 }
 
-img {
-  width: 20px;
-}
-
 ul {
   display: flex;
   align-items: center;
@@ -40,14 +36,19 @@ ul {
 }
 
 li {
-  color: #000;
+  color: var(--main-text);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   list-style: none;
 }
 
+.out {
+  width: 16px;
+}
+
 a {
+  color: var(--main-text);
   text-decoration: none;
 }
 </style>

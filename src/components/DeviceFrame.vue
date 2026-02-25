@@ -1,4 +1,6 @@
 <script setup>
+import SwiperCard from './SwiperCard.vue';
+
 </script>
 
 <template>
@@ -16,7 +18,9 @@
         </svg>
       </div>
     </div>
-    <div class="screen"></div>
+    <div class="screen">
+      <SwiperCard></SwiperCard>
+    </div>
   </div>
 </template>
 
@@ -59,13 +63,19 @@
   flex: 100;
   align-self: stretch;
   background: #f3f3f3;
+
+  display: flex;
+  justify-content: center;
+  /* 横方向の中央寄せ */
+  align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
-  .title_bar div{
+  .title_bar div {
     display: none;
   }
-  .flame{
+
+  .flame {
     width: 100%;
     border-radius: 16px;
   }
