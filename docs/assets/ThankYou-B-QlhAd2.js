@@ -1,0 +1,1 @@
+import{_ as o,c as r,d as n,F as t,o as s}from"./index-CoRK9YOz.js";const a={};function l(u,e){return s(),r(t,null,[e[0]||(e[0]=n("p",null,"見つけてくれてTHANK YOU!",-1)),e[1]||(e[1]=n("p",null,"もしよければ私のプロダクトもぜひ見てください。🕶",-1))],64)}const f=o(a,[["render",l]]);export{f as default};

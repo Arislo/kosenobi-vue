@@ -1,7 +1,7 @@
 <script setup>
 import Hero from '@/components/Hero.vue';
 import Device from '@/components/Device.vue';
-import Contact from '@/components/Contact.vue';
+import Contact from '@/components/ContactForm.vue';
 </script>
 <template>
   <Hero></Hero>
