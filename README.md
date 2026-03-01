@@ -1,44 +1,49 @@
-# kosenobi-vue
+# Kosenobi - 教育サービスデモサイト (Vue + Vite)
 
-This template should help get you started developing with Vue 3 in Vite.
+Kosenobi（こせのび）は、Vue と Vite を用いて制作した  
+教育サービスのデモサイトです。  
+シンプルな UI とわかりやすい情報設計を意識し、  
+サービス紹介・使用方法・お問い合わせ導線をまとめています。
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🔗 URL
+https://kosenobi.pages.dev/
 
-## Recommended Browser Setup
+---
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## 🎯 Purpose
 
-## Customize configuration
+- Vue 3 + Vite を使った SPA（Single Page Application）の制作練習  
+- 教育サービスを想定した LP（ランディングページ）のデザイン検証  
+- コンポーネント分割・レスポンシブ対応・UI 設計の実践  
+- 実案件を想定した「サービス紹介サイト」の構成理解
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## 🧩 Features
 
-```sh
-npm install
-```
+- ヒーローセクション（キャッチコピー + CTA）
+- サービス紹介
+- お問い合わせ導線（フォーム想定）
+- レスポンシブデザイン対応
+- Vue コンポーネントによるセクション分割
 
-### Compile and Hot-Reload for Development
+---
 
-```sh
-npm run dev
-```
+## 🛠 Tech Stack
 
-### Compile and Minify for Production
+### Frontend
+- Vue 3  
+- Vite  
+- JavaScript  
+- CSS / Tailwind CSS（必要に応じて）
 
-```sh
-npm run build
-```
+### Tools
+- Git / GitHub  
+- Cloudflare Pages（デプロイ）
 
-### Lint with [ESLint](https://eslint.org/)
+---
 
-```sh
-npm run lint
-```
+## 🚀 Deployment
+Cloudflare Pages を使用してデプロイしています。
